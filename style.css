@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url("https://i.ibb.co/HNvHSyV/image-header.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  height: 80vh;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+.menu span {
+  margin: 0px 30px 0px 0px;
+  cursor: pointer;
+}
+.contact {
+  background-color: #fff;
+  color: black;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+.contact:hover {
+  background-color: antiquewhite;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  flex-grow: 1;
+  color: white;
+  font-weight: bold;
+}
+.arrow {
+  margin: 60px 0px 0px 0px;
+}
+
+/* SECTION one*/
+.section--1 {
+  display: flex;
+  height: 350px;
+}
+.section--1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section--1 .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.left p {
+  color: #848391;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+.section--1 .left .btn img {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.section--1 .left img {
+  width: 150px;
+}
+.section--1 .text-container {
+  width: 70%;
+}
+.left,
+.right {
+  flex: 1;
+}
+/* SECTION two*/
+.section--2 {
+  display: flex;
+  height: 350px;
+}
+.section--2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section--2 .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section--2 .right h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.section--2 .right p {
+  color: #848391;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+.section--2 .right .btn img {
+  display: flex;
+  align-items: start;
+}
+.section--2 .right img {
+  width: 150px;
+}
+.section--2 .text-container {
+  width: 70%;
+}
+.right .btn img {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.left,
+.right {
+  flex: 1;
+}
+
+/* SECTION three*/
+
+.section--3 {
+  display: flex;
+  height: 350px;
+}
+.section--3 .left {
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section--3 .left p {
+  text-align: center;
+  color: #589688;
+  font-weight: bold;
+  font-size: 12px;
+}
+.section--3 h1 {
+  color: #24554a !important;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.section--3 .right {
+  background-image: url("./images/desktop/image-photography.jpg");
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section--3 .right p {
+  text-align: center;
+  color: #589688;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+/* SECTION */
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbf8;
+  padding: 0px 50px 0px 50px;
+}
+.client-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.client-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.testimonials h1 {
+  color: #a0a1a2;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 50px 0px 50px 0px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.card .client {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  align-items: center;
+}
+.client {
+  text-align: center;
+}
+.client .client-img {
+  margin-bottom: 30px;
+}
+.client p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #848391;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.details {
+  text-align: center;
+}
+.details h4 {
+  color: #a0a1a2;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  padding: 0px 0px 30px 0px;
+}
+
+.examples {
+  display: flex;
+}
+.examples div {
+  flex: 0.25;
+}
+.examples img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #90d4c5;
+  /* height: 400px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer-navigation {
+  color: #4f9485;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.footer-navigation span {
+  padding: 8px;
+  cursor: pointer;
+}
+.footer-navigation span:hover {
+  color: #2c6659;
+}
+.footer .social-media-icons {
+  margin-top: 30px;
+}
+.footer .social-media-icons img {
+  padding: 4px;
+}
+
+@media (max-width: 575.98px) {
+  .header .menu {
+    display: none;
+  }
+  .main .text {
+    text-align: center;
+    font-size: 50px;
+  }
+  .section--1,
+  .section--2 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .section--2 {
+    flex-direction: column;
+    height: auto;
+  }
+  .section--3 {
+    flex-direction: column;
+    height: 800px;
+  }
+
+  .section--1 .left,
+  .section--2 .right {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card .client {
+    margin-top: 50px;
+  }
+  .examples {
+    flex-wrap: wrap;
+  }
+  .examples div {
+    flex: 0.5;
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 567.98px) and (max-width: 818px) {
+  .text {
+    text-align: center;
+  }
+  .section--2 .text-container,
+  .section--1 .text-container {
+    width: 90%;
+  }
+}
+@media (min-width: 1018px) {
+  .section--1,
+  .section--2,
+  .section--3 {
+    height: 500px;
+  }
+}
+@media (min-width: 1500px) {
+  .section--1,
+  .section--2,
+  .section--3 {
+    height: 700px;
+  }
+  .section--3 .left p {
+    margin-bottom: 50px;
+  }
+  .section--3 .right p {
+    margin-bottom: 50px;
+  }
+}
